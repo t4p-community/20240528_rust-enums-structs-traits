@@ -1,0 +1,26 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "projects/01_enums",
+    "projects/02_enum_with_data",
+    "projects/03_enum_with_structs",
+    "projects/04_enum_option",
+    "projects/05_struct_option_field", 
+    "projects/06_enum_result",
+    "projects/07_structs",
+    "projects/08_tuple_structs",
+    "projects/09_struct_methods",
+    "projects/10_struct_associated_funcs",
+    "projects/11_struct_mut_methods",
+    "projects/12_struct_mut_methods2",
+    "projects/13_nested_structs",
+    "projects/14_display_trait",
+    "projects/15_trait_dynamic_dispatch",
+    "projects/16_box_dyn_error_trait",
+    "projects/17_custom_error_enum",
+    "projects/18_from_into",
+    "projects/19_custom_trait",
+    "projects/20_generic_trait_bounds",
+]
