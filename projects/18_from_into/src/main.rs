@@ -15,7 +15,7 @@ impl From<(String, u32)> for Person {
 fn main() {
     // Using the From trait explicitly
     let person_tuple = (String::from("Alice"), 30);
-    let person: Person = Person::from(person_tuple);
+    let person = Person::from(person_tuple);
 
     println!("Using From - Name: {}, Age: {}", person.name, person.age);
 

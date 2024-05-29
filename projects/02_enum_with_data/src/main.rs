@@ -5,7 +5,8 @@ enum IpAddrKind {
 
 fn print_ip_addr(ip: IpAddrKind) -> String {
     match ip {
-        IpAddrKind::V4(a, b, c, d) => format!("{}.{}.{}.{}", a, b, c, d),
+        IpAddrKind::V4(a, b, c, d) =>
+            format!("{}.{}.{}.{}", a, b, c, d),
         IpAddrKind::V6(ip) => format!("{}", ip),
     }
 }

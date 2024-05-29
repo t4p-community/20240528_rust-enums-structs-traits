@@ -1,5 +1,6 @@
 use std::fmt;
 
+#[derive(Debug)]
 struct Person {
     name: String,
     age: u32,
@@ -19,5 +20,6 @@ fn main() {
         age: 30,
     };
 
+    // have the effect of calling the fmt method with the formatter as argument.
     println!("{}", person);
 }

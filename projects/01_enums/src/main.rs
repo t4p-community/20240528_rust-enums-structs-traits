@@ -1,4 +1,3 @@
-
 enum Direction {
     Up,
     Down,
@@ -6,9 +5,7 @@ enum Direction {
     Right,
 }
 
-
 fn main() {
-    
     let player_direction: Direction = Direction::Up;
 
     match player_direction {
@@ -17,5 +14,4 @@ fn main() {
         Direction::Left => println!("Moving Left"),
         Direction::Right => println!("Moving Right"),
     }
-
 }
